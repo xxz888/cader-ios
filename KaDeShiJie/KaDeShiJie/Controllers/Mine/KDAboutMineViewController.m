@@ -47,7 +47,7 @@
         }
     }];
     
-    self.contentLabel.text = @"      卡德世界是行业领先的信用卡还款、刷卡、办卡软件，空卡仅需留足手续费，或5%以上的可用余额，即可全额快速还款，每万元手续费低至75元，让您彻底远离逾期；刷卡10秒内到账，每万元手续费低至38元。银联授信，安全稳定；累积注册用户超过1000万，是千万用户的共同信赖。";
+    self.contentLabel.text = @"      卡提乐是行业领先的信用卡还款、刷卡、办卡软件，空卡仅需留足手续费，或5%以上的可用余额，即可全额快速还款，每万元手续费低至75元，让您彻底远离逾期；刷卡10秒内到账，每万元手续费低至38元。银联授信，安全稳定；累积注册用户超过1000万，是千万用户的共同信赖。";
     //添加手势
     self.telLabel.userInteractionEnabled = YES;
     UITapGestureRecognizer* tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickCall:)];

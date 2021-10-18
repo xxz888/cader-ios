@@ -22,7 +22,7 @@
 - (KDShareHeaderView *)header
 {
     if (!_header) {
-        _header = [[KDShareHeaderView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, 340)];
+        _header = [[KDShareHeaderView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)];
     }
     return _header;
 }
@@ -30,32 +30,34 @@
 - (NSArray *)dataArray
 {
     if (!_dataArray) {
-        _dataArray = @[@{
-                           @"icon":@"kd_share_bottom_0",
-                           @"title":@"推广物料",
-                           @"des":@""
-        },  @{
-                           @"icon":@"kd_share_bottom_1",
-                           @"title":@"官方社群微信号",
-                           @"des":@"提供推广培训及引导"
-        },@{
-                           @"icon":@"kd_share_bottom_5",
-                           @"title":@"新代理育龙特训营",
-                           @"des":@""
-        },
-        @{
-                           @"icon":@"kd_share_bottom_2",
-                           @"title":@"卡德中国",
-                           @"des":@""
-        }, @{
-                           @"icon":@"kd_share_bottom_3",
-                           @"title":@"机构政策",
-                           @"des":@""
-        }, @{
-                           @"icon":@"kd_share_bottom_4",
-                           @"title":@"平台介绍",
-                           @"des":@""
-        }];
+        _dataArray = @[];
+        
+//        @[@{
+//                           @"icon":@"kd_share_bottom_0",
+//                           @"title":@"推广物料",
+//                           @"des":@""
+//        },  @{
+//                           @"icon":@"kd_share_bottom_1",
+//                           @"title":@"官方社群微信号",
+//                           @"des":@"提供推广培训及引导"
+//        },@{
+//                           @"icon":@"kd_share_bottom_5",
+//                           @"title":@"新代理育龙特训营",
+//                           @"des":@""
+//        },
+//        @{
+//                           @"icon":@"kd_share_bottom_2",
+//                           @"title":@"卡德中国",
+//                           @"des":@""
+//        }, @{
+//                           @"icon":@"kd_share_bottom_3",
+//                           @"title":@"机构政策",
+//                           @"des":@""
+//        }, @{
+//                           @"icon":@"kd_share_bottom_4",
+//                           @"title":@"平台介绍",
+//                           @"des":@""
+//        }];
     }
     return _dataArray;
 }

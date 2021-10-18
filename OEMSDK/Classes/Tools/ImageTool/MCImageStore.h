@@ -148,6 +148,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 + (UIImage *)creatShareImageWithImageFenXiang:(UIImage *)image;
+
+
++ (CGRect)getAlphaFrameInImage:(UIImage *)image;
 @end
 
 NS_ASSUME_NONNULL_END

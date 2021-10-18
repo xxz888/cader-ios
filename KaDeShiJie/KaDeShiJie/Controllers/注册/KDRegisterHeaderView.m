@@ -46,16 +46,15 @@
         [self.registerBtn setTitle:@"注册" forState:UIControlStateNormal];
         [self.registerBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         self.registerBtn.titleLabel.font = LYFont(20);
-        self.registerBtnHigCons.constant = 56;
+        self.registerBtnHigCons.constant = 50;
         self.registerBtnWidCons.constant = 274;
     } else {
         
-        [self.registerBtn setBackgroundColor:UIColor.whiteColor];
-        [self.registerBtn setTitle:@"" forState:UIControlStateNormal];
+        [self.registerBtn setBackgroundColor:[UIColor mainColor]];
+        [self.registerBtn setTitle:@"注册" forState:UIControlStateNormal];
         [self.registerBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         self.registerBtn.titleLabel.font = LYFont(20);
-        self.registerBtnHigCons.constant = 114;
-        [self.registerBtn setBackgroundImage:[UIImage imageNamed:@"kd_register_btn"] forState:UIControlStateNormal];
+        self.registerBtnHigCons.constant = 50;
         self.registerBtnWidCons.constant = 324;
         self.topImg.image = [UIImage imageNamed:@"register_top_bg"];
     }

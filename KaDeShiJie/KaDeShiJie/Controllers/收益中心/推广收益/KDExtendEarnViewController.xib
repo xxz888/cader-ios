@@ -43,7 +43,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kd_mine_top" translatesAutoresizingMaskIntoConstraints="NO" id="hsh-LJ-fG7">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kd_home_top_bg" translatesAutoresizingMaskIntoConstraints="NO" id="hsh-LJ-fG7">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="305"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="305" id="zJK-wO-foT"/>
@@ -537,7 +537,7 @@
         </view>
     </objects>
     <resources>
-        <image name="kd_mine_top" width="375" height="210"/>
+        <image name="kd_home_top_bg" width="375" height="245"/>
         <image name="kd_share_more" width="7" height="13"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

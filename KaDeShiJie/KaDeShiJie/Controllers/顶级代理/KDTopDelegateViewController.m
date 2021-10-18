@@ -117,7 +117,7 @@
     self.search = text;
     [self.dataArray removeAllObjects];
     self.page = 1;
-    [self getData:YES];    
+    [self getData:YES];
 }
 //637875
 - (void)getData:(BOOL)cleanData

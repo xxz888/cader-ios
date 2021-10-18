@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -27,7 +27,7 @@
                                         <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pv9-Hf-aa6">
                                             <rect key="frame" x="0.0" y="0.0" width="80" height="38"/>
                                             <state key="normal" title="密码登录">
-                                                <color key="titleColor" red="0.94117647058823528" green="0.51372549019607838" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleColor" red="0.44313725490196076" green="0.59607843137254901" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             </state>
                                             <connections>
                                                 <action selector="segmentAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="P49-fz-zJz"/>
@@ -49,7 +49,7 @@
                                         <button opaque="NO" tag="1002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KuK-PE-Lnm">
                                             <rect key="frame" x="0.0" y="0.0" width="120" height="38"/>
                                             <state key="normal" title="验证码登录">
-                                                <color key="titleColor" red="0.8901960784313725" green="0.47843137254901957" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleColor" red="0.44313725490196076" green="0.59607843137254901" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             </state>
                                             <connections>
                                                 <action selector="segmentAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="vIc-vY-qvX"/>
@@ -81,7 +81,7 @@
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oqi-WE-HtT">
                                     <rect key="frame" x="80" y="0.0" width="120" height="2"/>
-                                    <color key="backgroundColor" red="0.89019607840000003" green="0.42352941179999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.44313725490196076" green="0.59607843137254901" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </view>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemGray5Color"/>
@@ -112,18 +112,18 @@
                     <rect key="frame" x="0.0" y="-1" width="417" height="327.66666666666669"/>
                 </imageView>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Dwp-uV-fse">
-                    <rect key="frame" x="74" y="855" width="266" height="18"/>
+                    <rect key="frame" x="87" y="855" width="240" height="18"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登录即代表已同意" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W53-mC-qAb">
-                            <rect key="frame" x="0.0" y="0.0" width="133" height="18"/>
+                            <rect key="frame" x="0.0" y="0.0" width="120" height="18"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCl-ta-anC">
-                            <rect key="frame" x="133" y="0.0" width="133" height="18"/>
+                            <rect key="frame" x="120" y="0.0" width="120" height="18"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                            <state key="normal" title="《卡德世界服务协议》">
+                            <state key="normal" title="《卡提乐服务协议》">
                                 <color key="titleColor" red="0.1450980392" green="0.4549019608" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
                             </state>
                             <connections>
@@ -148,7 +148,7 @@
                                     </constraints>
                                 </imageView>
                             </subviews>
-                            <color key="backgroundColor" red="1" green="0.93333333333333335" blue="0.87058823529411766" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.44313725490196076" green="0.59607843137254901" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstItem="e3w-Vo-N6R" firstAttribute="centerY" secondItem="is4-dB-7rN" secondAttribute="centerY" id="J7T-vA-Pmw"/>
                                 <constraint firstItem="e3w-Vo-N6R" firstAttribute="centerX" secondItem="is4-dB-7rN" secondAttribute="centerX" id="Tis-d7-8Wd"/>
@@ -191,16 +191,24 @@
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWe-zZ-Hjf">
-                    <rect key="frame" x="30.666666666666657" y="567.66666666666663" width="352.66666666666674" height="114"/>
+                    <rect key="frame" x="30.666666666666657" y="567.66666666666663" width="352.66666666666674" height="50"/>
+                    <color key="backgroundColor" red="0.4431372549" green="0.59607843140000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="352.67001342773438" id="6m6-Nx-IBh"/>
-                        <constraint firstAttribute="height" constant="114" id="Nj0-hL-INA">
+                        <constraint firstAttribute="height" constant="50" id="Nj0-hL-INA">
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="boolean" keyPath="widthScreen" value="YES"/>
                             </userDefinedRuntimeAttributes>
                         </constraint>
                     </constraints>
-                    <state key="normal" backgroundImage="kd_login_btn"/>
+                    <state key="normal" title="登录">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <action selector="loginBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="ea2-DD-aCR"/>
                     </connections>
@@ -218,7 +226,7 @@
                                     </constraints>
                                 </imageView>
                             </subviews>
-                            <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.87058823529999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.44313725490196076" green="0.59607843137254901" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstItem="u6T-5I-69D" firstAttribute="centerX" secondItem="8ID-Kc-rhe" secondAttribute="centerX" id="Wp3-tL-yia"/>
                                 <constraint firstItem="u6T-5I-69D" firstAttribute="centerY" secondItem="8ID-Kc-rhe" secondAttribute="centerY" id="g0H-8a-Evz"/>
@@ -283,7 +291,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mqv-UU-4D7">
-                    <rect key="frame" x="157" y="701.66666666666663" width="100" height="30"/>
+                    <rect key="frame" x="157" y="637.66666666666663" width="100" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="8p4-rd-vKy"/>
                         <constraint firstAttribute="height" constant="30" id="DiS-Fr-hgH"/>
@@ -343,7 +351,6 @@
     </objects>
     <resources>
         <image name="KD_Login_Pwd" width="27" height="34"/>
-        <image name="kd_login_btn" width="324.5" height="114"/>
         <image name="kd_login_code" width="24" height="24"/>
         <image name="login_top_bg" width="376.5" height="327.5"/>
         <systemColor name="systemBackgroundColor">

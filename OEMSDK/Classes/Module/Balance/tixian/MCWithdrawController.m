@@ -75,8 +75,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
- 
+
     // Do any additional setup after loading the view from its nib.
     [self setNavigationBarTitle:@"提现" tintColor:nil];
     [self.totalButton setTitleColor:MAINCOLOR forState:UIControlStateNormal];

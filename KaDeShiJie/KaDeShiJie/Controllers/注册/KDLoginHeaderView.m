@@ -16,7 +16,7 @@
 #import <CommonCrypto/CommonCrypto.h>
 
 #define SegmentUnLine_COLOR [UIColor colorWithRed:222/255.0 green:222/255.0 blue:222/255.0 alpha:1]
-#define SegmentBtn_COLOR    [UIColor colorWithRed:227/255.0 green:122/255.0 blue:0/255.0 alpha:1]
+#define SegmentBtn_COLOR    [UIColor colorWithRed:113/255.0 green:152/255.0 blue:255/255.0 alpha:1]
 #define SegmentSelet_FontSize 19
 #define SegmentUnSelet_FontSize 14
 
@@ -63,18 +63,18 @@
         [self.loginBtn setTitle:@"登录" forState:UIControlStateNormal];
         [self.loginBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         self.loginBtn.titleLabel.font = LYFont(20);
-        self.loginBtnHigCons.constant = 56;
+        self.loginBtnHigCons.constant = 50;
         self.phoneIconTopCons.constant = 0;
         self.codeIconTopCons.constant = 29;
         self.loginBtnWidCons.constant = 274;
     } else {
         
-        [self.loginBtn setBackgroundColor:UIColor.whiteColor];
-        [self.loginBtn setTitle:@"" forState:UIControlStateNormal];
+        [self.loginBtn setBackgroundColor:[UIColor mainColor]];
+        [self.loginBtn setTitle:@"登录" forState:UIControlStateNormal];
         [self.loginBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         self.loginBtn.titleLabel.font = LYFont(20);
-        self.loginBtnHigCons.constant = 114;
-        [self.loginBtn setBackgroundImage:[UIImage imageNamed:@"kd_login_btn"] forState:UIControlStateNormal];
+        self.loginBtnHigCons.constant = 50;
+//        [self.loginBtn setBackgroundImage:[UIImage imageNamed:@"kd_login_btn"] forState:UIControlStateNormal];
         self.loginBtnWidCons.constant = 324;
         self.phoneIconTopCons.constant = 28.5;
         self.codeIconTopCons.constant = 34;

@@ -41,7 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *type;
 /** eg. 0.0046 */
 @property (nonatomic, assign) CGFloat costRate;
-/** eg. 卡德世界 */
+/** eg. 卡提乐 */
 @property (nonatomic, copy) NSString *brandname;
 /** eg. 12 */
 @property (nonatomic, assign) NSInteger channelid;
