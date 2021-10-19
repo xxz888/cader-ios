@@ -16,7 +16,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fGE-en-Pp9">
-                    <rect key="frame" x="0.0" y="160" width="414" height="85"/>
+                    <rect key="frame" x="0.0" y="152" width="414" height="85"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Tc-MO-b32">
                             <rect key="frame" x="0.0" y="0.0" width="138" height="85"/>
@@ -135,7 +135,7 @@
                     </constraints>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="NI0-XJ-wEW">
-                    <rect key="frame" x="0.0" y="255" width="414" height="85"/>
+                    <rect key="frame" x="0.0" y="247" width="414" height="85"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6S-1S-MYL" customClass="QMUIButton">
                             <rect key="frame" x="0.0" y="0.0" width="138" height="85"/>
@@ -210,16 +210,16 @@
                     </constraints>
                 </view>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kd_share_top" translatesAutoresizingMaskIntoConstraints="NO" id="7nK-rF-HaG">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="152"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="更多推广" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jo7-NY-l4T">
-                    <rect key="frame" x="24" y="359" width="49.5" height="14.5"/>
+                    <rect key="frame" x="24" y="351" width="49.5" height="14.5"/>
                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
                     <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9C-vb-iUB">
-                    <rect key="frame" x="16" y="360" width="3" height="12"/>
+                    <rect key="frame" x="16" y="352" width="3" height="12"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="3" id="LGY-MZ-DFY"/>
                         <constraint firstAttribute="height" constant="12" id="zrn-qo-Gl0"/>
@@ -229,7 +229,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5DT-LH-hdT">
-                    <rect key="frame" x="16" y="383.5" width="382" height="100"/>
+                    <rect key="frame" x="16" y="375.5" width="382" height="100"/>
                     <subviews>
                         <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fenxiang1" translatesAutoresizingMaskIntoConstraints="NO" id="wU0-gh-aH9">
                             <rect key="frame" x="0.0" y="0.0" width="188.5" height="100"/>
@@ -279,15 +279,15 @@
         </view>
     </objects>
     <resources>
-        <image name="fenxiang1" width="322" height="178"/>
-        <image name="fenxiang2" width="320" height="182"/>
+        <image name="fenxiang1" width="161.5" height="89"/>
+        <image name="fenxiang2" width="161.5" height="89"/>
         <image name="kd_share_0" width="23.5" height="23.5"/>
         <image name="kd_share_1" width="23.5" height="23.5"/>
         <image name="kd_share_2" width="23.5" height="23.5"/>
         <image name="kd_share_center_0" width="48" height="48"/>
         <image name="kd_share_center_1" width="48" height="48"/>
         <image name="kd_share_center_2" width="48" height="48"/>
-        <image name="kd_share_top" width="375" height="160"/>
+        <image name="kd_share_top" width="360" height="152"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

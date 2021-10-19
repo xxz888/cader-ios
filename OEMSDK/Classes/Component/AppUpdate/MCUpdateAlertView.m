@@ -30,7 +30,7 @@
 - (STModal *)modal {
     if (!_modal) {
         _modal = [STModal modal];
-        _modal.dimBackgroundColor = [UIColor colorWithWhite:0 alpha:0.9];
+        _modal.dimBackgroundColor = [UIColor colorWithWhite:0 alpha:0.5];
     }
     return _modal;
 }

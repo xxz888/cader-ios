@@ -8,6 +8,7 @@
 
 #import "KDShareHeaderView.h"
 #import "KDWXViewController.h"
+#import "KDGuanFangSheQun.h"
 
 @interface KDShareHeaderView ()
 @property (weak, nonatomic) IBOutlet UIStackView *centerView;
@@ -16,10 +17,35 @@
 @property (weak, nonatomic) IBOutlet UILabel *moneyLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *tuiguang1Imv;
 @property (weak, nonatomic) IBOutlet UIImageView *tuiguang2Imv;
+@property(nonatomic, strong) QMUIModalPresentationViewController * alertCroller;
+@property(nonatomic, strong) KDGuanFangSheQun * kdGuanFangSheQun;
 
 @end
 
 @implementation KDShareHeaderView
+
+- (KDGuanFangSheQun *)kdGuanFangSheQun {
+    if (!_kdGuanFangSheQun) {
+        _kdGuanFangSheQun = [[NSBundle mainBundle] loadNibNamed:@"KDGuanFangSheQun" owner:nil options:nil].lastObject;
+        __weak typeof(self) weakSelf = self;
+        _kdGuanFangSheQun.block = ^{
+            [weakSelf.alertCroller hideWithAnimated:YES completion:nil];
+        };
+    }
+    return _kdGuanFangSheQun;
+}
+- (QMUIModalPresentationViewController *)alertCroller {
+    if (!_alertCroller) {
+        _alertCroller = [[QMUIModalPresentationViewController alloc] init];
+        _alertCroller.contentView = self.kdGuanFangSheQun;
+        __weak __typeof(self)weakSelf = self;
+        _alertCroller.layoutBlock = ^(CGRect containerBounds, CGFloat keyboardHeight, CGRect contentViewDefaultFrame) {
+            weakSelf.kdGuanFangSheQun.frame = CGRectMake((self.frame.size.width-266)/2, NavigationContentTop+50, 266, 253);
+            [weakSelf.kdGuanFangSheQun setCenterY:weakSelf.centerY];
+        };
+    }
+    return _alertCroller;
+}
 
 - (void)awakeFromNib
 {
@@ -40,8 +66,9 @@
 
 }
 -(void)disPhoneClicktuiguang1Imv{
-    
-    [self.viewController.navigationController pushViewController:[KDWXViewController new] animated:YES];
+    [self.alertCroller showWithAnimated:YES completion:nil];
+
+//    [self.viewController.navigationController pushViewController:[KDWXViewController new] animated:YES];
 }
 -(void)disPhoneClicktuiguang2Imv{
     [MCPagingStore pagingURL:rt_news_list withUerinfo:@{@"classification":@"推广物料"}];

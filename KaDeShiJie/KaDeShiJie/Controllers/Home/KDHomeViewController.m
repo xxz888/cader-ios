@@ -52,7 +52,9 @@
     [self openEveryAlert1];
    
     
-
+    MCUpdateAlertView *updateView = [[[NSBundle OEMSDKBundle] loadNibNamed:@"MCUpdateAlertView" owner:nil options:nil] firstObject];
+    NSString * str = @"123123\n224234234\n";
+    [updateView showWithVersion:@"v.12" content:str downloadUrl:@"" isForce:YES];
     
 }
 //开始弹出各种弹框  1、版本升级 2、实名认证 3、银行卡认证 4、消息公告

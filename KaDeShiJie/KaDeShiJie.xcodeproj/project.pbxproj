@@ -251,6 +251,8 @@
 		1BD3DC3D250B597500A5D148 /* KDMyReferrerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD3DC3B250B597500A5D148 /* KDMyReferrerViewController.xib */; };
 		1BD3DC42250B60A600A5D148 /* KDGatheringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3DC40250B60A600A5D148 /* KDGatheringViewController.m */; };
 		1BD3DC43250B60A600A5D148 /* KDGatheringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BD3DC41250B60A600A5D148 /* KDGatheringViewController.xib */; };
+		6F5C0283271EAE220059A557 /* KDGuanFangSheQun.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5C0282271EAE220059A557 /* KDGuanFangSheQun.m */; };
+		6F5C0285271EB1230059A557 /* KDGuanFangSheQun.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5C0284271EB1230059A557 /* KDGuanFangSheQun.xib */; };
 		6FAC122926FC86FB00E3560F /* KDHomeXinYongKaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAC122826FC86FB00E3560F /* KDHomeXinYongKaViewController.m */; };
 		CFA05BD11EA60505A35F429A /* libPods-KaDeShiJie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFABD6DDE24EBE293888388 /* libPods-KaDeShiJie.a */; };
 		EE1BA9AD251C277E00941631 /* KDWebContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1BA9AC251C277E00941631 /* KDWebContainer.m */; };
@@ -670,6 +672,9 @@
 		1BD3DC3F250B60A600A5D148 /* KDGatheringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDGatheringViewController.h; sourceTree = "<group>"; };
 		1BD3DC40250B60A600A5D148 /* KDGatheringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDGatheringViewController.m; sourceTree = "<group>"; };
 		1BD3DC41250B60A600A5D148 /* KDGatheringViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDGatheringViewController.xib; sourceTree = "<group>"; };
+		6F5C0281271EAE220059A557 /* KDGuanFangSheQun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDGuanFangSheQun.h; sourceTree = "<group>"; };
+		6F5C0282271EAE220059A557 /* KDGuanFangSheQun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDGuanFangSheQun.m; sourceTree = "<group>"; };
+		6F5C0284271EB1230059A557 /* KDGuanFangSheQun.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KDGuanFangSheQun.xib; sourceTree = "<group>"; };
 		6FAC122726FC86FB00E3560F /* KDHomeXinYongKaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDHomeXinYongKaViewController.h; sourceTree = "<group>"; };
 		6FAC122826FC86FB00E3560F /* KDHomeXinYongKaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDHomeXinYongKaViewController.m; sourceTree = "<group>"; };
 		9128FD3AF01474CF6106FD30 /* Pods-KaDeShiJie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaDeShiJie.debug.xcconfig"; path = "Target Support Files/Pods-KaDeShiJie/Pods-KaDeShiJie.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1334,6 +1339,9 @@
 				1BC5E3C6250344410064CA30 /* KDShareViewController.m */,
 				1BC4AE9225105AD7003B092E /* KDUseExplainViewController.h */,
 				1BC4AE9325105AD7003B092E /* KDUseExplainViewController.m */,
+				6F5C0281271EAE220059A557 /* KDGuanFangSheQun.h */,
+				6F5C0282271EAE220059A557 /* KDGuanFangSheQun.m */,
+				6F5C0284271EB1230059A557 /* KDGuanFangSheQun.xib */,
 			);
 			path = "推广";
 			sourceTree = "<group>";
@@ -1673,6 +1681,7 @@
 				187D8B1B2565FC900097A650 /* KDTrandingRecordHeaderView.xib in Resources */,
 				1848CE6F266F9BC900D6E148 /* KDJFPayViewController.xib in Resources */,
 				1BD2F208250A0DAA0061580C /* KDDirectPushNoDataView.xib in Resources */,
+				6F5C0285271EB1230059A557 /* KDGuanFangSheQun.xib in Resources */,
 				1B1C0E952508753B0009CDC6 /* KDShiftToProvisionsViewController.xib in Resources */,
 				1B6667F92508EEF500AA55DA /* KDCreditAlertView.xib in Resources */,
 				1BCF5E272514DE320095328E /* KDCancelCreditHeaderView.xib in Resources */,
@@ -1909,6 +1918,7 @@
 				1B6667EE2508D47B00AA55DA /* KDNoCreditViewCell.m in Sources */,
 				1B1C0E9E25087BB80009CDC6 /* KDChosePayTypeViewCell.m in Sources */,
 				EE8D733F2509CFD4007AF076 /* KDShareSingleVC.m in Sources */,
+				6F5C0283271EAE220059A557 /* KDGuanFangSheQun.m in Sources */,
 				1893CEF026727A9300C53DBF /* KDJFAdressManagerViewController.m in Sources */,
 				1B9C9B1425075D2300EE0819 /* KDNewsViewCell.m in Sources */,
 				1BC5E3B7250341180064CA30 /* AppDelegate.m in Sources */,
